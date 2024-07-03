@@ -9,6 +9,7 @@ import PersonModal from './components/PersonModal';
 import InfoBox from './components/InfoBox';
 import CheckNotams from './Classes/Notam';
 import LocalData from './Classes/LocalData';
+import Github from './components/Github';
 
 function App() {
 
@@ -107,10 +108,7 @@ function App() {
       </div>
 
       <PersonModal person={selectedPerson} visibility={modalState} hideModal={(success, message) => { HideModal(success, message) }} />
-
-      {/*
-        <Github />
-      */}
+      <Github />
 
     </div>
   )

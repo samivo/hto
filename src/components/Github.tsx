@@ -7,11 +7,15 @@ function Github() {
 
     return (
         <div className='Git'>
-            <img src={GithubMark} />
-            <p>Samivo/hto</p>
+            <img onClick={HandleClick} src={GithubMark} />
+            <p onClick={HandleClick}>Samivo/hto</p>
         </div>
 
     )
+
+    function HandleClick(){
+        window.open("https://github.com/samivo/hto");
+    }
 }
 
 export default Github

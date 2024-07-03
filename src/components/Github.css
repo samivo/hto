@@ -9,7 +9,9 @@
     width: 100%;
     bottom: 0px;
     user-select: none;
+    cursor: pointer;
 }
+
 
 .Git img{
     width: 30px;
