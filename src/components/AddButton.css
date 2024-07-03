@@ -1,0 +1,20 @@
+.AddButton {
+    width: 35px;
+    height: 35px;
+}
+
+.EditButtons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.AddButton:hover{
+    cursor: pointer;
+}
+.ReportButton{
+    height: 35px;
+    width: 35px;
+    margin-right: 30px;
+    cursor: pointer;
+}

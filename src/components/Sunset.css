@@ -1,0 +1,16 @@
+.SunsetTimes{
+    position: relative;
+    display: block;
+    left: 10px;
+    user-select: none;
+}
+p{
+    margin: 0px;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 13px;
+}
+.Sunset{
+    display: flex;
+    margin: 0px;
+}

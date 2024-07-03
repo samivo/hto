@@ -1,0 +1,61 @@
+.DateButton {
+    display: block;
+    position: relative;
+    width: calc(100% / 7);
+    max-width: 70px;
+    height: 60px;
+    margin: 2px;
+    border: solid;
+    border-radius: 10px;
+
+}
+
+.DateButton:hover{
+    background-color: rgba(173, 216, 230, 0.171);
+    cursor: pointer;
+}
+
+#day {
+    text-align: center;
+    margin: 0;
+    user-select: none;
+    font-size: 16px;
+}
+
+#date {
+    text-align: center;
+    margin: 0;
+    margin-top: -5px;
+    user-select: none;
+    font-size: small;
+}
+
+.personCount {
+    position: relative;
+    bottom: 0px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: 13px;
+}
+
+#exclamation {
+    position: relative;
+    bottom: 2px;
+    user-select: none;
+    left: 0px;
+    width: 13px;
+    height: 20px;
+}
+
+#personCount {
+    user-select: none;
+    margin: 0px;
+}
+
+#personSvg {
+    user-select: none;
+    padding-left: 1px;
+    width: 15px;
+    height: 19px;
+}

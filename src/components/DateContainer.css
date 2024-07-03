@@ -1,0 +1,9 @@
+.DateContainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    user-select: none;
+    height: 70px;
+}
+
+

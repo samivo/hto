@@ -1,0 +1,22 @@
+.InfoBox {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 1000;
+    left: -170px;
+    top: 50px;
+    border-radius: 20px;
+    height: 60px;
+    width: 160px;
+    user-select: none;
+    overflow: hidden;
+    transition: left 1.5s;
+    opacity: 0.9;
+
+}
+
+.InfoBox p {
+    font-size: large;
+}

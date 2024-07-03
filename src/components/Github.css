@@ -1,0 +1,19 @@
+.Git{
+    display: grid;
+    position: fixed;
+    justify-content: center;
+    justify-items: center;
+    height: 50px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    bottom: 0px;
+    user-select: none;
+}
+
+.Git img{
+    width: 30px;
+}
+.Git p{
+    font-size: 12px;
+}
