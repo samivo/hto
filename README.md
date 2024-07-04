@@ -7,7 +7,7 @@ Jumping activity organizer for dropzones
 ## Frontend
 Update modules and run 
 ```
-node update
+node install
 npm run dev
 ```
 Build and copy files to backend [public](https://github.com/samivo/hto-backend/tree/main/public) folder
