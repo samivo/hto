@@ -82,11 +82,10 @@ function GetPersonCountByDate(persons: Person[], date: Date): number {
 
     persons.forEach(person => {
 
-        if (person.ready_time.getDate() === date.getDate()) {
+        if (person.ready_time.getDate() === date.getDate() && person.ready_time.getMonth() === date.getMonth()) {
             count++
         }
     });
-
     return count
 }
 
