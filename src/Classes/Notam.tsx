@@ -33,7 +33,7 @@ function CheckNotams(): Promise<Date[]> {
                 */
 
                 //Match RWYxx/xx CLSD and parses start and end dates to gourp 1 and 2
-                const dates: RegExpMatchArray | null = notam.match(/RWY[\s\S]*CLSD[\s\S]*FROM:[\s\S]{1}([\s\S]{12})[\s\S]*TO:[\s\S]{1}([\s\S]{12})/i);
+                const dates: RegExpMatchArray | null = notam.match(/RWY[\s\S]{0,10}CLSD[\s\S]*?FROM:[\s\S]{1}([\s\S]{12})[\s\S]*?TO:[\s\S]{1}([\s\S]{12})/i);
 
                 if (dates != null) {
 
