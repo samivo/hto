@@ -212,9 +212,13 @@ function PersonModal({ visibility, hideModal: hideModal, person }: Iprops) {
             }
             else if (key == "date") {
 
+                //Prevents date overflow when setting month. If current date is 31 and next month has 30 days, month overflows -> outcome is wanted month +1
+                date.setDate(1);
+
                 date.setFullYear(Number(value.toString().substring(0, 4)));
                 date.setMonth(Number(value.toString().substring(5, 7)) - 1);
                 date.setDate(Number(value.toString().substring(8, 10)));
+
             }
             else if (key == "time") {
 
